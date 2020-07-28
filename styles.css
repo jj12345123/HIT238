@@ -1,0 +1,91 @@
+/* The background for the page is set here*/
+body{
+  background-color: #66ffcc;
+  align-content: center;
+}
+
+.introduction{
+  text-align: center;
+}
+
+.master_container{
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.container{
+  position: relative;
+  width: 15%;
+  height:200px;
+  margin: 20px;
+  float:left;
+}
+
+
+@media screen and (max-width:900px)
+{
+    .container
+    {
+      width:40%;
+      display:block;
+
+    }
+}
+
+@media screen and (max-width:500px)
+{
+    .container
+    {
+      width:90%;
+      display:block;
+
+    }
+}
+
+
+.card{
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px;
+}
+
+
+.front{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background: white;
+  border-radius: 20px;
+}
+
+.front p,
+.back p{
+  margin-top: 25%;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.back{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background: white;
+  border-radius: 20px;
+  transform: rotateY(180deg);
+}
+
+
+.card:hover{
+  transform:rotateY(180deg);
+}
