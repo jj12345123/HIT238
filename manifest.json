@@ -4,12 +4,12 @@
     "icons": [
         {
             "src": "/HIT238/icon-128.PNG",
-            "sizes": "404x448",
+            "sizes": "403x403",
             "type": "image/png"
         },
         {
             "src": "/HIT238/icon-512.PNG",
-            "sizes": "1046x398",
+            "sizes": "397x397",
             "type": "image/png"
         }
     ],
