@@ -16,7 +16,7 @@ var CACHE_TITLE = 'my-site-cache';
 var CACHE_VERSION = 'v1';
 var CACHE_NAME = CACHE_TITLE + '-' + CACHE_VERSION;
 var urlsToCache = [
-  '/{repository}/',
+  '/HIT238/',
   '/styles.css',
   '/scripts.js'
 ];
